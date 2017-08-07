@@ -4,6 +4,7 @@
     ],
     shouldDeps: [
         'form-request',
+        { block: 'jquery', elem: 'config'  },
         { block: 'content', mods: { form: 'request' } }
     ]
 })
